@@ -46,7 +46,22 @@ void validate_string_input(const std::string& input, const std::string& param_na
 
 // Helper function to validate file path
 void validate_file_path(const std::string& path, const std::string& param_name) {
-    validate_string_input(path, param_name, false);
+    if (path.empty()) {
+        TINY_LLAMA_THROW(FileIOException, param_name + " cannot be empty", param_name);
+    }
+    
+    // Check for null characters which could cause issues
+    if (path.find('\0') != std::string::npos) {
+        TINY_LLAMA_THROW(FileIOException, param_name + " contains null characters", param_name);
+    }
+    
+    // Check for extremely long strings that could cause memory issues
+    const size_t MAX_STRING_LENGTH = 1000000; // 1MB limit
+    if (path.length() > MAX_STRING_LENGTH) {
+        TINY_LLAMA_THROW(FileIOException, 
+                        param_name + " is too long (max " + std::to_string(MAX_STRING_LENGTH) + " characters)", 
+                        param_name);
+    }
     
     if (!file_exists(path)) {
         TINY_LLAMA_THROW(FileIOException, "File does not exist: " + path, path);
@@ -60,7 +75,22 @@ void validate_file_path(const std::string& path, const std::string& param_name) 
 
 // Helper function to validate directory path
 void validate_directory_path(const std::string& path, const std::string& param_name) {
-    validate_string_input(path, param_name, false);
+    if (path.empty()) {
+        TINY_LLAMA_THROW(FileIOException, param_name + " cannot be empty", param_name);
+    }
+    
+    // Check for null characters which could cause issues
+    if (path.find('\0') != std::string::npos) {
+        TINY_LLAMA_THROW(FileIOException, param_name + " contains null characters", param_name);
+    }
+    
+    // Check for extremely long strings that could cause memory issues
+    const size_t MAX_STRING_LENGTH = 1000000; // 1MB limit
+    if (path.length() > MAX_STRING_LENGTH) {
+        TINY_LLAMA_THROW(FileIOException, 
+                        param_name + " is too long (max " + std::to_string(MAX_STRING_LENGTH) + " characters)", 
+                        param_name);
+    }
     
     if (!file_exists(path)) {
         TINY_LLAMA_THROW(FileIOException, "Directory does not exist: " + path, path);
@@ -219,6 +249,15 @@ std::string TinyLlama::generate(const std::string& prompt, int max_tokens) {
         TINY_LLAMA_THROW(ConfigurationException, 
                         "max_tokens is too large (max " + std::to_string(MAX_GENERATION_TOKENS) + 
                         ", got " + std::to_string(max_tokens) + ")", 
+                        "max_tokens");
+    }
+    
+    // Check if max_tokens exceeds the model's configured maximum sequence length
+    int model_max_tokens = model_->get_config().max_sequence_length;
+    if (max_tokens > model_max_tokens) {
+        TINY_LLAMA_THROW(ConfigurationException, 
+                        "max_tokens exceeds model's configured maximum sequence length (model max: " + 
+                        std::to_string(model_max_tokens) + ", requested: " + std::to_string(max_tokens) + ")", 
                         "max_tokens");
     }
     

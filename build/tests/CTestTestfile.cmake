@@ -14,3 +14,5 @@ ADD_TEST(WeightPopulationTests "/home/cajoshi/workplace/EntityExtractor/EntityEx
 ADD_TEST(TinyLlamaAPITests "/home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests/tiny_llama_api_test_driver")
 ADD_TEST(TokenizerAPITests "/home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests/tokenizer_api_test_driver")
 ADD_TEST(APIErrorHandlingTests "/home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests/api_error_handling_test_driver")
+ADD_TEST(ParameterValidationTests "/home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests/parameter_validation_test_driver")
+ADD_TEST(IntegrationTests "/home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests/integration_test_driver")

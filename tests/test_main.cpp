@@ -6,8 +6,7 @@ void test_tensor_operations();
 void test_exception_handling();
 void test_vocabulary();
 void test_bpe_tokenizer();
-void test_attention();
-void test_tiny_llama_api();
+void test_integration();
 
 int main() {
     std::cout << "Running Tiny Llama C++ Tests..." << std::endl;
@@ -66,24 +65,16 @@ int main() {
     }
     
     try {
-        std::cout << "\n=== Attention Tests ===" << std::endl;
-        test_attention();
+        std::cout << "\n=== Integration Tests ===" << std::endl;
+        test_integration();
         passed++;
         total++;
     } catch (const std::exception& e) {
-        std::cout << "Attention tests failed: " << e.what() << std::endl;
+        std::cout << "Integration tests failed: " << e.what() << std::endl;
         total++;
     }
     
-    try {
-        std::cout << "\n=== TinyLlama API Tests ===" << std::endl;
-        test_tiny_llama_api();
-        passed++;
-        total++;
-    } catch (const std::exception& e) {
-        std::cout << "TinyLlama API tests failed: " << e.what() << std::endl;
-        total++;
-    }
+    // Attention and TinyLlama API tests are run separately
     
     std::cout << "\nTests completed: " << passed << "/" << total << " passed" << std::endl;
     

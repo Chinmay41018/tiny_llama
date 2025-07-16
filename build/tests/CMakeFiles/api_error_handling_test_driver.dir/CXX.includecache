@@ -49,4 +49,8 @@ limits
 -
 cmath
 -
+unistd.h
+-
+cstdio
+-
 

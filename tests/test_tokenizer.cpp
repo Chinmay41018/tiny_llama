@@ -483,7 +483,6 @@ void test_bpe_tokenizer_encode_edge_cases() {
     vocab.add_token("hello");
     vocab.add_token(" ");
     vocab.add_token("world");
-    int unk_id = vocab.unk_id();
     
     // Test empty input
     std::vector<int> ids1 = tokenizer.encode("");

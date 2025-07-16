@@ -98,32 +98,9 @@ tests/CMakeFiles/run_tests.dir/test_tokenizer.cpp.o.provides: tests/CMakeFiles/r
 
 tests/CMakeFiles/run_tests.dir/test_tokenizer.cpp.o.provides.build: tests/CMakeFiles/run_tests.dir/test_tokenizer.cpp.o
 
-tests/CMakeFiles/run_tests.dir/test_model.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
-tests/CMakeFiles/run_tests.dir/test_model.cpp.o: ../tests/test_model.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_model.cpp.o"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_model.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_model.cpp
-
-tests/CMakeFiles/run_tests.dir/test_model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test_model.cpp.i"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_model.cpp > CMakeFiles/run_tests.dir/test_model.cpp.i
-
-tests/CMakeFiles/run_tests.dir/test_model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test_model.cpp.s"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_model.cpp -o CMakeFiles/run_tests.dir/test_model.cpp.s
-
-tests/CMakeFiles/run_tests.dir/test_model.cpp.o.requires:
-.PHONY : tests/CMakeFiles/run_tests.dir/test_model.cpp.o.requires
-
-tests/CMakeFiles/run_tests.dir/test_model.cpp.o.provides: tests/CMakeFiles/run_tests.dir/test_model.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/test_model.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/run_tests.dir/test_model.cpp.o.provides
-
-tests/CMakeFiles/run_tests.dir/test_model.cpp.o.provides.build: tests/CMakeFiles/run_tests.dir/test_model.cpp.o
-
 tests/CMakeFiles/run_tests.dir/test_matrix.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
 tests/CMakeFiles/run_tests.dir/test_matrix.cpp.o: ../tests/test_matrix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_matrix.cpp.o"
 	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_matrix.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_matrix.cpp
 
@@ -146,7 +123,7 @@ tests/CMakeFiles/run_tests.dir/test_matrix.cpp.o.provides.build: tests/CMakeFile
 
 tests/CMakeFiles/run_tests.dir/test_integration.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
 tests/CMakeFiles/run_tests.dir/test_integration.cpp.o: ../tests/test_integration.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_integration.cpp.o"
 	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_integration.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_integration.cpp
 
@@ -169,7 +146,7 @@ tests/CMakeFiles/run_tests.dir/test_integration.cpp.o.provides.build: tests/CMak
 
 tests/CMakeFiles/run_tests.dir/test_exceptions.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
 tests/CMakeFiles/run_tests.dir/test_exceptions.cpp.o: ../tests/test_exceptions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_exceptions.cpp.o"
 	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_exceptions.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_exceptions.cpp
 
@@ -190,149 +167,22 @@ tests/CMakeFiles/run_tests.dir/test_exceptions.cpp.o.provides: tests/CMakeFiles/
 
 tests/CMakeFiles/run_tests.dir/test_exceptions.cpp.o.provides.build: tests/CMakeFiles/run_tests.dir/test_exceptions.cpp.o
 
-tests/CMakeFiles/run_tests.dir/test_attention.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
-tests/CMakeFiles/run_tests.dir/test_attention.cpp.o: ../tests/test_attention.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_attention.cpp.o"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_attention.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_attention.cpp
-
-tests/CMakeFiles/run_tests.dir/test_attention.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test_attention.cpp.i"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_attention.cpp > CMakeFiles/run_tests.dir/test_attention.cpp.i
-
-tests/CMakeFiles/run_tests.dir/test_attention.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test_attention.cpp.s"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_attention.cpp -o CMakeFiles/run_tests.dir/test_attention.cpp.s
-
-tests/CMakeFiles/run_tests.dir/test_attention.cpp.o.requires:
-.PHONY : tests/CMakeFiles/run_tests.dir/test_attention.cpp.o.requires
-
-tests/CMakeFiles/run_tests.dir/test_attention.cpp.o.provides: tests/CMakeFiles/run_tests.dir/test_attention.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/test_attention.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/run_tests.dir/test_attention.cpp.o.provides
-
-tests/CMakeFiles/run_tests.dir/test_attention.cpp.o.provides.build: tests/CMakeFiles/run_tests.dir/test_attention.cpp.o
-
-tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
-tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o: ../tests/test_ffn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_ffn.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_ffn.cpp
-
-tests/CMakeFiles/run_tests.dir/test_ffn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test_ffn.cpp.i"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_ffn.cpp > CMakeFiles/run_tests.dir/test_ffn.cpp.i
-
-tests/CMakeFiles/run_tests.dir/test_ffn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test_ffn.cpp.s"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_ffn.cpp -o CMakeFiles/run_tests.dir/test_ffn.cpp.s
-
-tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o.requires:
-.PHONY : tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o.requires
-
-tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o.provides: tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o.provides
-
-tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o.provides.build: tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o
-
-tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
-tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o: ../tests/test_transformer_block.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_transformer_block.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_transformer_block.cpp
-
-tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test_transformer_block.cpp.i"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_transformer_block.cpp > CMakeFiles/run_tests.dir/test_transformer_block.cpp.i
-
-tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test_transformer_block.cpp.s"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_transformer_block.cpp -o CMakeFiles/run_tests.dir/test_transformer_block.cpp.s
-
-tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o.requires:
-.PHONY : tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o.requires
-
-tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o.provides: tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o.provides
-
-tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o.provides.build: tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o
-
-tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
-tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o: ../tests/test_tiny_llama_api.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_tiny_llama_api.cpp
-
-tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.i"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_tiny_llama_api.cpp > CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.i
-
-tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.s"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_tiny_llama_api.cpp -o CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.s
-
-tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o.requires:
-.PHONY : tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o.requires
-
-tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o.provides: tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o.provides
-
-tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o.provides.build: tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o
-
-tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
-tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o: ../tests/test_api_error_handling.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o -c /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_api_error_handling.cpp
-
-tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test_api_error_handling.cpp.i"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_api_error_handling.cpp > CMakeFiles/run_tests.dir/test_api_error_handling.cpp.i
-
-tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test_api_error_handling.cpp.s"
-	cd /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_api_error_handling.cpp -o CMakeFiles/run_tests.dir/test_api_error_handling.cpp.s
-
-tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o.requires:
-.PHONY : tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o.requires
-
-tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o.provides: tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o.provides
-
-tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o.provides.build: tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o
-
 # Object files for target run_tests
 run_tests_OBJECTS = \
 "CMakeFiles/run_tests.dir/test_main.cpp.o" \
 "CMakeFiles/run_tests.dir/test_tokenizer.cpp.o" \
-"CMakeFiles/run_tests.dir/test_model.cpp.o" \
 "CMakeFiles/run_tests.dir/test_matrix.cpp.o" \
 "CMakeFiles/run_tests.dir/test_integration.cpp.o" \
-"CMakeFiles/run_tests.dir/test_exceptions.cpp.o" \
-"CMakeFiles/run_tests.dir/test_attention.cpp.o" \
-"CMakeFiles/run_tests.dir/test_ffn.cpp.o" \
-"CMakeFiles/run_tests.dir/test_transformer_block.cpp.o" \
-"CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o" \
-"CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o"
+"CMakeFiles/run_tests.dir/test_exceptions.cpp.o"
 
 # External object files for target run_tests
 run_tests_EXTERNAL_OBJECTS =
 
 tests/run_tests: tests/CMakeFiles/run_tests.dir/test_main.cpp.o
 tests/run_tests: tests/CMakeFiles/run_tests.dir/test_tokenizer.cpp.o
-tests/run_tests: tests/CMakeFiles/run_tests.dir/test_model.cpp.o
 tests/run_tests: tests/CMakeFiles/run_tests.dir/test_matrix.cpp.o
 tests/run_tests: tests/CMakeFiles/run_tests.dir/test_integration.cpp.o
 tests/run_tests: tests/CMakeFiles/run_tests.dir/test_exceptions.cpp.o
-tests/run_tests: tests/CMakeFiles/run_tests.dir/test_attention.cpp.o
-tests/run_tests: tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o
-tests/run_tests: tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o
-tests/run_tests: tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o
-tests/run_tests: tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o
 tests/run_tests: tests/CMakeFiles/run_tests.dir/build.make
 tests/run_tests: libtiny_llama_cpp.a
 tests/run_tests: tests/CMakeFiles/run_tests.dir/link.txt
@@ -345,15 +195,9 @@ tests/CMakeFiles/run_tests.dir/build: tests/run_tests
 
 tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_main.cpp.o.requires
 tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_tokenizer.cpp.o.requires
-tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_model.cpp.o.requires
 tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_matrix.cpp.o.requires
 tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_integration.cpp.o.requires
 tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_exceptions.cpp.o.requires
-tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_attention.cpp.o.requires
-tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_ffn.cpp.o.requires
-tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_transformer_block.cpp.o.requires
-tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_tiny_llama_api.cpp.o.requires
-tests/CMakeFiles/run_tests.dir/requires: tests/CMakeFiles/run_tests.dir/test_api_error_handling.cpp.o.requires
 .PHONY : tests/CMakeFiles/run_tests.dir/requires
 
 tests/CMakeFiles/run_tests.dir/clean:

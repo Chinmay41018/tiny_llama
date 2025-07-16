@@ -50,6 +50,20 @@ void test_attention_init() {
     std::cout << "Attention initialization tests passed!" << std::endl;
 }
 
+// Test wrapper class for accessing private methods
+class TestAttention : public MultiHeadAttention {
+public:
+    TestAttention(int model_dim, int num_heads) : MultiHeadAttention(model_dim, num_heads) {}
+    
+    Matrix<float> test_scaled_dot_product(
+        const Matrix<float>& Q, 
+        const Matrix<float>& K, 
+        const Matrix<float>& V,
+        const Matrix<float>* mask = nullptr) const {
+        return scaled_dot_product_attention(Q, K, V, mask);
+    }
+};
+
 // Test scaled dot-product attention
 void test_scaled_dot_product_attention() {
     std::cout << "Testing scaled dot-product attention..." << std::endl;
@@ -75,20 +89,7 @@ void test_scaled_dot_product_attention() {
     // Create attention instance
     MultiHeadAttention attention(4, 1);
     
-    // Access the private method using a test wrapper
-    class TestAttention : public MultiHeadAttention {
-    public:
-        TestAttention(int model_dim, int num_heads) : MultiHeadAttention(model_dim, num_heads) {}
-        
-        Matrix<float> test_scaled_dot_product(
-            const Matrix<float>& Q, 
-            const Matrix<float>& K, 
-            const Matrix<float>& V,
-            const Matrix<float>* mask = nullptr) const {
-            return scaled_dot_product_attention(Q, K, V, mask);
-        }
-    };
-    
+    // Use the test wrapper
     TestAttention test_attention(4, 1);
     
     // Compute attention
@@ -143,20 +144,7 @@ void test_attention_mask() {
     mask(1, 0) = 1.0f; mask(1, 1) = 1.0f; mask(1, 2) = 0.0f;
     mask(2, 0) = 1.0f; mask(2, 1) =1.0f; mask(2, 2) = 1.0f;
     
-    // Create test attention
-    class TestAttention : public MultiHeadAttention {
-    public:
-        TestAttention(int model_dim, int num_heads) : MultiHeadAttention(model_dim, num_heads) {}
-        
-        Matrix<float> test_scaled_dot_product(
-            const Matrix<float>& Q, 
-            const Matrix<float>& K, 
-            const Matrix<float>& V,
-            const Matrix<float>* mask = nullptr) const {
-            return scaled_dot_product_attention(Q, K, V, mask);
-        }
-    };
-    
+    // Use the global TestAttention class
     TestAttention test_attention(4, 1);
     
     // Compute attention with mask

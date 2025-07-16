@@ -398,19 +398,4 @@ void test_weight_loading() {
     std::remove(temp_file.c_str());
 }
 
-int main() {
-    std::cout << "Running FFN tests..." << std::endl;
-    
-    try {
-        test_gelu_activation();
-        test_forward_pass();
-        test_dimension_mismatch();
-        test_weight_loading();
-        
-        std::cout << "All FFN tests passed!" << std::endl;
-        return 0;
-    } catch (const std::exception& e) {
-        std::cerr << "Test failed with exception: " << e.what() << std::endl;
-        return 1;
-    }
-}
+// Test functions are called from ffn_test_driver.cpp

@@ -14,6 +14,7 @@ namespace tiny_llama {
 class MultiHeadAttention {
     friend class TinyLlamaModel;  // Allow TinyLlamaModel to access private members
     friend class WeightTestHelper;  // Allow test helper to access private members
+    friend class TestAttention;  // Allow test class to access private members
 private:
     Matrix<float> query_weights_;
     Matrix<float> key_weights_;
@@ -23,6 +24,7 @@ private:
     int head_dim_;
     int model_dim_;
     
+protected:
     /**
      * @brief Compute scaled dot-product attention
      * @param Q Query matrix

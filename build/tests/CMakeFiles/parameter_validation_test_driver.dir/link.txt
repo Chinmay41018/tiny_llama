@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/parameter_validation_test_driver.dir/parameter_validation_test_driver.cpp.o  -o parameter_validation_test_driver -rdynamic ../libtiny_llama_cpp.a 

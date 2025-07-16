@@ -180,6 +180,32 @@ ffn_test_driver/fast:
 .PHONY : ffn_test_driver/fast
 
 #=============================================================================
+# Target rules for targets named generate_test_data
+
+# Build rule for target.
+generate_test_data: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generate_test_data
+.PHONY : generate_test_data
+
+# fast build rule for target.
+generate_test_data/fast:
+	$(MAKE) -f tests/CMakeFiles/generate_test_data.dir/build.make tests/CMakeFiles/generate_test_data.dir/build
+.PHONY : generate_test_data/fast
+
+#=============================================================================
+# Target rules for targets named integration_test_driver
+
+# Build rule for target.
+integration_test_driver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 integration_test_driver
+.PHONY : integration_test_driver
+
+# fast build rule for target.
+integration_test_driver/fast:
+	$(MAKE) -f tests/CMakeFiles/integration_test_driver.dir/build.make tests/CMakeFiles/integration_test_driver.dir/build
+.PHONY : integration_test_driver/fast
+
+#=============================================================================
 # Target rules for targets named model_weights_test_driver
 
 # Build rule for target.
@@ -191,6 +217,19 @@ model_weights_test_driver: cmake_check_build_system
 model_weights_test_driver/fast:
 	$(MAKE) -f tests/CMakeFiles/model_weights_test_driver.dir/build.make tests/CMakeFiles/model_weights_test_driver.dir/build
 .PHONY : model_weights_test_driver/fast
+
+#=============================================================================
+# Target rules for targets named parameter_validation_test_driver
+
+# Build rule for target.
+parameter_validation_test_driver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parameter_validation_test_driver
+.PHONY : parameter_validation_test_driver
+
+# fast build rule for target.
+parameter_validation_test_driver/fast:
+	$(MAKE) -f tests/CMakeFiles/parameter_validation_test_driver.dir/build.make tests/CMakeFiles/parameter_validation_test_driver.dir/build
+.PHONY : parameter_validation_test_driver/fast
 
 #=============================================================================
 # Target rules for targets named run_tests
@@ -441,7 +480,10 @@ help:
 	@echo "... tokenizer_demo"
 	@echo "... api_error_handling_test_driver"
 	@echo "... ffn_test_driver"
+	@echo "... generate_test_data"
+	@echo "... integration_test_driver"
 	@echo "... model_weights_test_driver"
+	@echo "... parameter_validation_test_driver"
 	@echo "... run_tests"
 	@echo "... tiny_llama_api_test_driver"
 	@echo "... tokenizer_api_test_driver"

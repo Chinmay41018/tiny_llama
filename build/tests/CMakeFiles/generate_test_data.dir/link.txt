@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/generate_test_data.dir/generate_test_data.cpp.o  -o generate_test_data -rdynamic ../libtiny_llama_cpp.a 

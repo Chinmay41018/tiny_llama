@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/ffn_test_driver.dir/ffn_test_driver.cpp.o CMakeFiles/ffn_test_driver.dir/test_ffn.cpp.o  -o ffn_test_driver -rdynamic ../libtiny_llama_cpp.a 

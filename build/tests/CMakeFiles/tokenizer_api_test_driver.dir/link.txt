@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/tokenizer_api_test_driver.dir/test_tokenizer_api.cpp.o  -o tokenizer_api_test_driver -rdynamic ../libtiny_llama_cpp.a 

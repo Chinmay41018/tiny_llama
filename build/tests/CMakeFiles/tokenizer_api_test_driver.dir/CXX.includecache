@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tiny_llama/exceptions.hpp
+exception
+-
+string
+-
+sstream
+-
+utility
+-
+
+../include/tiny_llama/tokenizer.hpp
+string
+-
+vector
+-
+unordered_map
+-
+
+/home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/test_tokenizer_api.cpp
+tiny_llama/tokenizer.hpp
+/home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/tiny_llama/tokenizer.hpp
+tiny_llama/exceptions.hpp
+/home/cajoshi/workplace/EntityExtractor/EntityExtractor/tiny_llama_cpp/tests/tiny_llama/exceptions.hpp
+cassert
+-
+iostream
+-
+fstream
+-
+sys/stat.h
+-
+sys/types.h
+-
+unistd.h
+-
+cstdio
+-
+

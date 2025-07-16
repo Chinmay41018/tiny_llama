@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/vocabulary_test_driver.dir/vocabulary_test_driver.cpp.o CMakeFiles/vocabulary_test_driver.dir/test_tokenizer.cpp.o  -o vocabulary_test_driver -rdynamic ../libtiny_llama_cpp.a 

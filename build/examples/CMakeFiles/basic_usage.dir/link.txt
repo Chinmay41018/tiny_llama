@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/basic_usage.dir/basic_usage.cpp.o  -o basic_usage -rdynamic ../libtiny_llama_cpp.a 

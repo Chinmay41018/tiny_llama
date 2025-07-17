@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/advanced_usage.dir/advanced_usage.cpp.o  -o advanced_usage -rdynamic ../libtiny_llama_cpp.a 

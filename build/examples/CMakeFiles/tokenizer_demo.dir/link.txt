@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/tokenizer_demo.dir/tokenizer_demo.cpp.o  -o tokenizer_demo -rdynamic ../libtiny_llama_cpp.a 

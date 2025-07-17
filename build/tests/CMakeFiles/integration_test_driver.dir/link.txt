@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/integration_test_driver.dir/integration_test_driver.cpp.o CMakeFiles/integration_test_driver.dir/test_integration.cpp.o  -o integration_test_driver -rdynamic ../libtiny_llama_cpp.a 

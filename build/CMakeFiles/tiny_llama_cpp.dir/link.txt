@@ -1,2 +1,0 @@
-/usr/bin/ar cr libtiny_llama_cpp.a  CMakeFiles/tiny_llama_cpp.dir/src/tiny_llama.cpp.o CMakeFiles/tiny_llama_cpp.dir/src/tokenizer.cpp.o CMakeFiles/tiny_llama_cpp.dir/src/model.cpp.o CMakeFiles/tiny_llama_cpp.dir/src/attention.cpp.o CMakeFiles/tiny_llama_cpp.dir/src/ffn.cpp.o CMakeFiles/tiny_llama_cpp.dir/src/matrix.cpp.o
-/usr/bin/ranlib libtiny_llama_cpp.a

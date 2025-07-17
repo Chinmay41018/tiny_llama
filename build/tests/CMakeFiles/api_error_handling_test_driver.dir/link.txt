@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/api_error_handling_test_driver.dir/api_error_handling_test_driver.cpp.o  -o api_error_handling_test_driver -rdynamic ../libtiny_llama_cpp.a 

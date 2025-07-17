@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/transformer_block_test_driver.dir/transformer_block_test_driver.cpp.o CMakeFiles/transformer_block_test_driver.dir/test_transformer_block.cpp.o  -o transformer_block_test_driver -rdynamic ../libtiny_llama_cpp.a 

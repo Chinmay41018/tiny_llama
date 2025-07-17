@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/tiny_llama_api_test_driver.dir/test_tiny_llama_api.cpp.o  -o tiny_llama_api_test_driver -rdynamic ../libtiny_llama_cpp.a 

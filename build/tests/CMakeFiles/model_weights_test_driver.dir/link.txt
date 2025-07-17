@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/model_weights_test_driver.dir/test_model_weights.cpp.o  -o model_weights_test_driver -rdynamic ../libtiny_llama_cpp.a 

@@ -191,12 +191,12 @@ public:
  * @brief Model configuration structure
  */
 struct ModelConfig {
-    int model_dim = 512;
-    int num_layers = 6;
-    int num_heads = 8;
-    int ffn_hidden_dim = 2048;
-    int max_sequence_length = 1024;
-    int vocab_size = 32000;
+    int model_dim = 64;  // Smaller default for testing
+    int num_layers = 2;  // Smaller default for testing
+    int num_heads = 2;   // Smaller default for testing
+    int ffn_hidden_dim = 128; // Smaller default for testing
+    int max_sequence_length = 128; // Smaller default for testing
+    int vocab_size = 100; // Smaller default for testing
     float dropout_rate = 0.1f;
     
     /**

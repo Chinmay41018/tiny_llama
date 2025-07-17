@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -Wpedantic    CMakeFiles/weight_population_test_driver.dir/test_weight_population.cpp.o  -o weight_population_test_driver -rdynamic ../libtiny_llama_cpp.a 
